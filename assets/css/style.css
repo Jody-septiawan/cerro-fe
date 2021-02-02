@@ -1,0 +1,93 @@
+.manrope{
+    font-family: 'Manrope', sans-serif;
+}
+
+.manrope-500{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+.text-biru{
+    color: #5E85BC !important;
+}
+
+.text-biru-2{
+    color: #5376A7 !important;
+
+}
+
+.bg-biru{
+    background-color: #5E85BC !important;
+}
+
+.nav-item-main .nav-link{
+    margin: 0 20px;
+}
+
+.nav-item-auth .nav-link{
+    margin: 0 6px;
+}
+
+.nav-masuk{
+    background-color: #e6e6e6 !important;
+    /* padding: 8px 31px !important;
+    border: 1em; */
+    color: #8C96D0 !important;
+}
+
+.nav-daftar{
+    background-color: #5E85BC !important;
+    color: #ffffff !important;
+}
+
+/* HERO */
+
+.hero .text-1{
+    font-size: 24px;
+    line-height: 55px;
+}
+
+.btn-hero{
+    background-color: #5E85BC !important;
+    color: #ffffff !important;
+    font-size: 20px;
+}
+
+/* AFTER HERO */
+.after-hero{
+    color: white;
+}
+.after-hero .kolom-1{
+    background-color: #EF4F4F;
+    text-align: center;
+}
+.after-hero .kolom-2{
+    background-color: #AB56BF;
+    text-align: center;
+}
+.after-hero .kolom-3{
+    background-color: #E47F38;
+    text-align: center;
+}
+
+.after-hero p{
+    margin: 0;
+}
+
+.after-hero .h3{
+    margin: 0;
+}
+
+/* Misi */
+.border-biru{
+    border: 1px solid #5376A7 !important;
+}
+
+.box-img-text{
+        display: flex;
+        align-items:center;
+}
+
+.card-misi{
+    border-radius: 12px !important;
+}
