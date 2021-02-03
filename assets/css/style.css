@@ -123,3 +123,39 @@
     background-color: rgb(255, 255, 255);
     border-radius: 0px 0px 5px 0px;
 }
+
+/* tentang */
+.line{
+    content: '';
+    padding: 1px 0;
+    background-color: #dbe2ef81;
+    width: 35%;
+}
+
+.btn-tentang-cek-soal{
+    background-color: #5376A7 !important;
+    color: white !important;
+    border-radius: 13px !important;
+    font-size: 12px !important;
+    padding: 10px 15px !important;
+}
+
+.btn-tentang-cek-soal:hover{
+    background-color: #3f70b4 !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.FAQ-tanya{
+    color: #5376A7 !important;
+}
+
+.FAQ-tanya:hover{
+    color: #30558a !important;
+}
+
+.FAQ-jawab{
+    transition: .5s;
+}

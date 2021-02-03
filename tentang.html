@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Cerro</title>
+    <link rel="icon" href="assets/img/icon/logo-potrait.png" type="image/gif" sizes="16x16">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Costume CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/owl.theme.default.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light manrope-b border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/img/icon/logo.png" alt="" class="img-fluid"></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav-item-main">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="tentang.html">Tentang UTBK</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="testimoni.html">Testimoni</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 nav-item-auth">
+                    <li class="nav-item active">
+                        <a class="btn nav-masuk py-1 px-5 mx-1" href="#">Masuk</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="btn nav-daftar py-1 px-5 mx-1" href="#">Daftar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+
+        function toggleFAQ(index) {
+            $('.jawab-' + index).toggle(600, 'swing');
+            $('#right-' + index).toggleClass('d-none');
+            $('#down-' + index).toggleClass("d-none");
+        }
+
+    </script>
+
+    <div class="container py-2 py-md-5 manrope">
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="assets/img/ilus/tentang-1.png" alt="" class="img-fluid" data-aos="zoom-in"
+                    data-aos-delay="200" data-aos-duration="800">
+            </div>
+            <div class="col-12 text-center my-5">
+                <div class="text-biru-2 h3" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">Apa sih UTBK
+                    itu?</div>
+                <div class="line mx-auto my-3" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800"></div>
+                <div class="text-biru" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
+                    UTBK merupakan singkatan dari Ujian Tulis Berbasis Komputer (UTBK). UTBK merupakan tes masuk ke
+                    perguruan tinggi yang dilandaskan oleh Lembaga Tes Masuk Perguruan Tinggi (LTMPT).
+                </div>
+                <div class="text-biru-2 h3 mt-5" data-aos="fade-up" data-aos-offset="200" data-aos-delay="200"
+                    data-aos-duration="800">Tujuan
+                    UTBK</div>
+                <div class="line mx-auto my-3" data-aos="fade-up" data-aos-delay="700" data-aos-duration="800"></div>
+                <div class="container-fluid" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                            <span class="box-img-text text-center">
+                                <img src="assets/img/icon/tujuan-1.png" alt="" class="img-fluid">
+                                <span class="text-biru ml-3 text-left" style="margin-top: -10px;">
+                                    Memprediksi calon mahasiswa yang mampu meyelesaikan studi di perguruan tinggi dengan
+                                    baik & tepat waktu.</span>
+                            </span>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                            <span class="box-img-text text-center">
+                                <img src="assets/img/icon/tujuan-2.png" alt="" class="img-fluid">
+                                <span class="text-biru ml-3 text-left" style="margin-top: -10px;">
+                                    Memprediksi calon mahasiswa yang mampu meyelesaikan studi di perguruan tinggi dengan
+                                    baik & tepat waktu.</span>
+                            </span>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+                <div class="text-biru-2 h3 mt-5" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
+                    Jenis-jenis UTBK</div>
+                <div class="line mx-auto my-3" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800"></div>
+                <div class="text-biru" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
+                    Kelompok Ujian dari UTBK terdiri atas 3 jenis, <br> yaitu Saintek, Soshum, dan Campuran.
+                </div>
+                <div class="container-fluid mt-4">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card border-biru shadow py-5 my-3" data-aos="fade-up" data-aos-delay="300"
+                                data-aos-duration="800">
+                                <div class="card-body">
+                                    <img src="assets/img/ilus/jenis-1.png" alt="" class="img-fluid">
+                                    <div class="h5 text-left" style="margin-top: 80px;">
+                                        Sains dan Teknologi <br>
+                                        (Saintek)
+                                    </div>
+                                    <p class="text-left">
+                                        Materi yang di ujian TPS & TKA Saintek (Matematika Saintek, Kimia, Fisika, dan
+                                        Biologi. Dengan jumlah soal 160 dan waktu pengerjaan 210 menit.
+                                    </p>
+                                    <div class="text-left mt-4">
+                                        <a href="#" class="btn btn-tentang-cek-soal">Cek Soal Sekarang <i
+                                                class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-biru shadow py-5 my-3" data-aos="fade-up" data-aos-delay="400"
+                                data-aos-duration="800">
+                                <div class="card-body">
+                                    <img src="assets/img/ilus/jenis-2.png" alt="" class="img-fluid">
+                                    <div class="h5 text-left mt-4">
+                                        Sosial dan Humaniora <br>
+                                        (Soshum)
+                                    </div>
+                                    <p class="text-left">
+                                        Materi yang di ujian TPS & TKA SOSHUM (Matematika Soshum, Sejarah, Ekonomi,
+                                        Geografi, dan Sosiologi. Dengan jumlah soal 180 dan waktu pengerjaan 210 menit.
+                                    </p>
+                                    <div class="text-left mt-4">
+                                        <a href="#" class="btn btn-tentang-cek-soal">Cek Soal Sekarang <i
+                                                class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-biru shadow py-5 my-3" data-aos="fade-up" data-aos-delay="500"
+                                data-aos-duration="800">
+                                <div class="card-body">
+                                    <img src="assets/img/ilus/jenis-3.png" alt="" class="img-fluid">
+                                    <div class="h5 text-left mt-4">
+                                        Campuran
+                                    </div>
+                                    <p class="text-left">
+                                        Materi yang di ujian TPS & TKA SOSHUM dan TKA SAINTEK (Matematika campuran,
+                                        Sejarah, Ekonomi, Geografi, Sosiologi, Kimia, Fisika, dan Biologi dengan jumlah
+                                        soal 180 dan waktu pengerjaan 210 menit
+                                    </p>
+                                    <div class="text-left mt-4">
+                                        <a href="#" class="btn btn-tentang-cek-soal">Cek Soal Sekarang <i
+                                                class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 120px;" data-aos="fade-up" data-aos-delay="700" data-aos-duration="800">
+                    <div class="text-biru-2 h3">Frequently Asked Questions (FAQ)</div>
+                    <div style="color: #8C96D0;">Pertanyaan yang sering diajukan</div>
+
+                    <hr style="background-color: #dbe2efc5;">
+                    <div class="container-fluid px-0 pointer FAQ-tanya tanya-1">
+                        <div class="row ">
+                            <div class="col-11 h5 mb-0 text-left pr-0" onclick="toggleFAQ(1)">
+                                Apa kelebihan simulasi tryout di SOBAT UTBK dengan layanan simulasi
+                                tryout lainnya ?
+                            </div>
+                            <div class="col-1 text-right pl-0" onclick="toggleFAQ(1)">
+                                <svg id="right-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                </svg>
+                                <svg id="down-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-caret-down-fill d-none" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-left text-biru FAQ-jawab jawab-1 my-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In expedita sit quidem totam et ea
+                        assumenda, quae nulla velit ipsam corporis eaque, quisquam soluta ex facere debitis minima.
+                        Fugiat, dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, delectus
+                        voluptatum nisi in officia et impedit corrupti labore. Amet iusto laudantium mollitia ducimus
+                        magnam voluptatibus ullam, soluta in distinctio est!
+                    </div>
+
+                    <hr style="background-color: #dbe2efc5;">
+                    <div class="container-fluid px-0 pointer FAQ-tanya tanya-2">
+                        <div class="row ">
+                            <div class="col-11 h5 mb-0 pr-0 text-left" onclick="toggleFAQ(2)">
+                                Apa kelebihan simulasi tryout di SOBAT UTBK dengan layanan simulasi
+                                tryout lainnya ?
+                            </div>
+                            <div class="col-1 text-right pl-0" onclick="toggleFAQ(2)">
+                                <svg id="right-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                </svg>
+                                <svg id="down-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-caret-down-fill d-none" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-left text-biru FAQ-jawab jawab-2 my-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In expedita sit quidem totam et ea
+                        assumenda, quae nulla velit ipsam corporis eaque, quisquam soluta ex facere debitis minima.
+                        Fugiat, dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, delectus
+                        voluptatum nisi in officia et impedit corrupti labore. Amet iusto laudantium mollitia ducimus
+                        magnam voluptatibus ullam, soluta in distinctio est!
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <label id="jml-faq" name="2"></label>
+
+    <!-- footer -->
+    <div style="background: #0B0D17;">
+        <div class="container py-5 py-md-5 manrope footer">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/img/icon/logo-potrait.png" alt="" class="img-fluid" style="width: 20%;">
+                    <div class="text-muted mt-4" style="font-weight: normal;
+                    font-size: 14px;">Copyright © 2021 Cerro.</div>
+                    <div class="text-muted mb-4 mt-2" style="font-weight: normal;
+                    font-size: 14px;">All rights reserved</div>
+                    <a href="#"><img src="assets/img/icon/sosmed/Instagram.png" alt="" class="img-fluid"></a>
+                    <a href="#"><img src="assets/img/icon/sosmed/Dribbble.png" alt="" class="img-fluid"></a>
+                    <a href="#"><img src="assets/img/icon/sosmed/Twitter.png" alt="" class="img-fluid"></a>
+                    <a href="#"><img src="assets/img/icon/sosmed/Youtube.png" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <div class="h4 text-light">Tentang Kami</div>
+                    <div class="text-light my-3" style="font-weight: 300; font-size: 16px;">
+                        <a href="#" class="text-light">Tentang Kami</a>
+                    </div>
+                    <div class="text-light my-3" style="font-weight: 300; font-size: 16px;">
+                        <a href="#" class="text-light">Testimoni </a>
+                    </div>
+                    <div class="text-light my-3" style="font-weight: 300; font-size: 16px;">
+                        <a href="#" class="text-light">FAQ </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="h4 text-light">Produk Kami</div>
+                    <div class="text-light my-3" style="font-weight: 300; font-size: 16px;">Tryout Saintek</div>
+                    <div class="text-light my-3" style="font-weight: 300; font-size: 16px;">Tryout Soshum</div>
+                    <div class="text-light my-3" style="font-weight: 300; font-size: 16px;">Tryout Campuran</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+
+        var jml_faq = $('#jml-faq').attr('name');
+
+        for (i = 1; i <= jml_faq; i++) {
+            $('.jawab-' + i).hide();
+        }
+
+
+        AOS.init();
+
+        var owl = $('.owl-carousel');
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 40,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                }
+            }
+        });
+        owl.on('mousewheel', '.owl-stage', function (e) {
+            if (e.deltaY > 0) {
+                owl.trigger('next.owl');
+            } else {
+                owl.trigger('prev.owl');
+            }
+            e.preventDefault();
+        });
+
+    </script>
+</body>
+
+</html>
